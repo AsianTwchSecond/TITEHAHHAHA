@@ -18,7 +18,7 @@ function startBot() {
 
   const bot = mineflayer.createBot({
     host: "bingungsmp.top",
-    username: "AltNiXac",
+    username: "RavixHere",
     version: false
   })
 
