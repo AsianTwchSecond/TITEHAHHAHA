@@ -17,16 +17,16 @@ function startBot() {
   console.log("Starting bot...")
 
   const bot = mineflayer.createBot({
-    host: "play.leztusasmp.xyz",
+    host: "illusionsmp.srein.xyz",
     username: "Xacrifizee_",
-    version: false
+    version: 1.21
   })
 
   bot.once("spawn", () => {
     console.log("Bot spawned")
 
-    setTimeout(() => bot.chat("/login kurtalle"), 3000)
-    setTimeout(() => bot.chat("/eco"), 6000)
+    setTimeout(() => bot.chat("/login <kurt>"), 3000)
+    setTimeout(() => bot.chat("/hack"), 6000)
 
     // Auto jump only
     setInterval(() => {
